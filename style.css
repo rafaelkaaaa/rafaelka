@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 10px;
+
+}
+body{
+    font-family: 'Gabarito', cursive;
+
+}
+.flex_container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 36.5px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 0 65px;
+}
+header-mid2{
+    width: 1440px;
+    height:160px ;
+    background: rgb(255, 254, 254);
+}
+.section-mid2{
+    width: 1440px;
+    
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 82.5;
+}
+.info1{
+    padding: 0 25px;
+    margin-top: 100px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 0 15px 15px 0; 
+    padding-top: 200px; 
+    
+}
+.color1{
+    color: black;
+}
+.color2{
+    color: gray;
+}
+.h1{
+    margin-top: 43px;
+    color: #000;
+
+/* H1 */
+font-family: Circular Std;
+font-size: 69px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 82.8px */
+}
+.p{
+    margin-top: 43px;
+    margin-bottom: 30px;
+    color: gray;
+}
+.button1{
+    display:block;
+    border-radius: 100px;
+background: #5D50C6;
+padding: 6px 32px;
+width: 141px;
+height: 49px;
+color:  #EEE;
+border: none;
+outline: none;
+transition: all 1s;
+
+/* Button */
+font-family: Circular Std;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 16.8px */
+}
+.button1:hover{
+    color: #5D50C6;
+    background: #EEE;
+    border: 1px solid #5D50C6; 
+}
+.button2{
+    display:block;
+
+    /* margin-right: 130px; */
+    display: flex;
+padding: 16px 32px;
+align-items: center;
+gap: 8px;
+border-radius: 100px;
+border: 1px solid #EEE;
+background: #FFF;
+width: 181px;
+height: 56px;   
+}
+.log{
+    border-radius: 90px;
+}
+.nav ul li a{
+    text-decoration: none;
+}
+.log{
+    border-radius: 90px;
+    margin-left: 20px;
+    padding: 10px;
+    color: black;
+    border: none;
+    background-color: white;
+}
+.sig{
+    border-radius: 90px;
+    margin-left: 20px;
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+}
+.nav ul{
+    list-style-type: none;
+}
+.ex{
+ font-size: small;
+ color: rgb(233, 147, 161);
+ width: 224px;
+ height: 56px;
+ background-color: whitesmoke;
+ padding: 16px 32px;
+ border-radius: 100px;
+ display: flex;
+ align-items: center;
+ grid-gap: 0 30px;
+}
+.btn{
+    display: flex;
+    grid-gap: 0 16px;
+    width: 410px;
+}
+.logo{
+margin: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+grid-gap: 80px;
+}
+.h1 span{
+    color: #F85E9F;
+}
